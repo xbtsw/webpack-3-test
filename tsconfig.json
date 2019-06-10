@@ -1,0 +1,20 @@
+/* https://www.typescriptlang.org/docs/handbook/compiler-options.html */
+{
+    "compilerOptions": {
+      /* module */
+      "target": "es5",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": false,
+      /* lib */
+      "noLib": false,
+      "lib": ["es2017", "dom"],
+      "typeRoots": ["./node_modules/@types"],
+      /* emit */
+      "declaration": false,
+      "jsx": "react",
+      "sourceMap": true
+    },
+    "exclude": ["node_modules", "dist"]
+  }
+  
